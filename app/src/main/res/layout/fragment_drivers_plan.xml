@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.duty.DriversPlanFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/btn_back_toolbar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/ic_baseline_arrow_back"
+                android:layout_marginTop="20dp">
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/btn_back"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginStart="5dp"-->
+<!--                    android:background="@drawable/ic_baseline_arrow_back" />-->
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_toRightOf="@id/btn_back_toolbar"
+                android:layout_alignBottom="@id/btn_back_toolbar"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="План машиниста"
+                android:textSize="26sp" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#0281FF"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp"
+            tools:ignore="RtlSymmetry,UselessParent">
+
+            <TextView
+                android:id="@+id/driverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="Имя"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/driverId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/driverName"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="10dp"
+                android:textColor="#D3E8FB"
+                android:text="номер машиниста"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/attendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/driverId"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Явка на работу"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/attendanceDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/attendance"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:text="19.09.2022 - 08:00"
+                android:textColor="#D3E8FB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/medicalExamination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/attendance"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Проход медосмотра"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/medicalExaminationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/medicalExamination"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:text="19.09.2022 - 09:00"
+                android:textColor="#D3E8FB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/locomotive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medicalExamination"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Прием локомотива"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/locomotiveStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomotive"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="40dp"
+                android:textColor="#D3E8FB"
+                android:paddingTop="8dp"
+                android:text="Начало"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/locomotiveStartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/locomotiveStart"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:text="19.09.2022 - 10:00"
+                android:textColor="#D3E8FB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/locomotiveEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomotiveStart"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="40dp"
+                android:textColor="#D3E8FB"
+                android:paddingTop="8dp"
+                android:text="Конец"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/locomotiveEndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/locomotiveEnd"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:text="19.09.2022 - 11:00"
+                android:textColor="#D3E8FB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/pastLocomotive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomotiveEnd"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Сдача локомотива"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pastLocomotiveTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/pastLocomotive"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:text="20.09.2022 - 13:00"
+                android:textColor="#D3E8FB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/lastStation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pastLocomotive"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Завершение работы"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lastStationTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lastStation"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="10dp"
+                android:text="20.09.2022 - 14:00"
+                android:textColor="#D3E8FB"
+                android:textSize="14sp" />
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/route_list_view"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "466986491505",
+    "firebase_url": "https://silkway-transit-ffa13-default-rtdb.firebaseio.com",
+    "project_id": "silkway-transit-ffa13",
+    "storage_bucket": "silkway-transit-ffa13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466986491505:android:a54587c1a0452e169505d0",
+        "android_client_info": {
+          "package_name": "com.example.silkwaytransit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466986491505-cd9m5hps6mlueimk2ur61ti86v68ekr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.silkwaytransit",
+            "certificate_hash": "50975495cad84df1d85391c529192633ae816b50"
+          }
+        },
+        {
+          "client_id": "466986491505-8nk4hu6hfvu24d3op2csbv0d9udh1q3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLO0HFZm2jpxdXOZLTOKzcf0E_4_d4dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466986491505-8nk4hu6hfvu24d3op2csbv0d9udh1q3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
