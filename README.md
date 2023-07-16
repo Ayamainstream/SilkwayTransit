@@ -36,21 +36,21 @@ The application includes the following key features:
 
 ## Screenshots
 ### Admin's panel
-<img width="306" alt="Admin Screenshot 1" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/316c0699-6b31-4f3c-af7f-0e62bdbea478">
-<img width="306" alt="Admin Screenshot 2" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/221d4d98-29f9-4091-bd36-f02534a8d2f5">
-<img width="306" alt="Admin Screenshot 3" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c52b3e8f-bc52-4e73-a15c-579a86c62e57">
-<img width="306" alt="Admin Screenshot 4" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c2aa5058-ce22-4896-9744-9730f86995d5">
+<img width="206" alt="Admin Screenshot 1" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/316c0699-6b31-4f3c-af7f-0e62bdbea478">
+<img width="206" alt="Admin Screenshot 2" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/221d4d98-29f9-4091-bd36-f02534a8d2f5">
+<img width="206" alt="Admin Screenshot 3" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c52b3e8f-bc52-4e73-a15c-579a86c62e57">
+<img width="206" alt="Admin Screenshot 4" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c2aa5058-ce22-4896-9744-9730f86995d5">
 
 ### Driver's panel
-<img width="306" alt="Driver Screenshot 1" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/316c0699-6b31-4f3c-af7f-0e62bdbea478">
-<img width="306" alt="Driver Screenshot 2" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/cd93fadb-f8f0-4869-840f-f99bb508f51d">
-<img width="306" alt="Driver Screenshot 3" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c2aa5058-ce22-4896-9744-9730f86995d5">
+<img width="206" alt="Driver Screenshot 1" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/316c0699-6b31-4f3c-af7f-0e62bdbea478">
+<img width="206" alt="Driver Screenshot 2" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/cd93fadb-f8f0-4869-840f-f99bb508f51d">
+<img width="206" alt="Driver Screenshot 3" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c2aa5058-ce22-4896-9744-9730f86995d5">
 
 ### Duty's panel
-<img width="306" alt="Duty Screenshot 1" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/316c0699-6b31-4f3c-af7f-0e62bdbea478">
-<img width="306" alt="Duty Screenshot 2" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/1689cb46-3ad6-4c18-9e4f-2327d318b569">
-<img width="306" alt="Duty Screenshot 3" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/7ee7a5bb-e96c-407e-a548-2dc3726c190f">
-<img width="306" alt="Duty Screenshot 4" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c2aa5058-ce22-4896-9744-9730f86995d5">
+<img width="206" alt="Duty Screenshot 1" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/316c0699-6b31-4f3c-af7f-0e62bdbea478">
+<img width="206" alt="Duty Screenshot 2" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/1689cb46-3ad6-4c18-9e4f-2327d318b569">
+<img width="206" alt="Duty Screenshot 3" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/7ee7a5bb-e96c-407e-a548-2dc3726c190f">
+<img width="206" alt="Duty Screenshot 4" src="https://github.com/Ayamainstream/SilkwayTransit/assets/72498812/c2aa5058-ce22-4896-9744-9730f86995d5">
 
 ## Getting Started
 
